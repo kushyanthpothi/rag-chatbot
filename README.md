@@ -50,6 +50,21 @@ RAG Chatbot is a full-stack application that enables natural-language question a
 - Docker Compose deployment with volume persistence
 - Retrieval evaluation script for precision/recall testing
 
+## Screenshots
+
+<table>
+  <tr>
+    <td width="33%"><img src="docs/add-content.png" alt="Add Content"></td>
+    <td width="33%"><img src="docs/documents.png" alt="Documents"></td>
+    <td width="33%"><img src="docs/system-settings.png" alt="System Settings"></td>
+  </tr>
+  <tr>
+    <td align="center">Add documents (file upload or URL)</td>
+    <td align="center">Manage indexed documents</td>
+    <td align="center">System health & chat history</td>
+  </tr>
+</table>
+
 ## Project Structure
 
 ```
@@ -181,7 +196,7 @@ All settings are managed through `.env`. See `backend/.env.example` for defaults
 | Variable | Default | Description |
 |----------|---------|-------------|
 | `OPENROUTER_API_KEY` | (required) | OpenRouter API key |
-| `OPENROUTER_MODEL` | `google/gemma-7b-it:free` | LLM model identifier |
+| `OPENROUTER_MODEL` | `qwen/qwen3.6-plus:free` | LLM model identifier |
 | `EMBEDDING_MODEL` | `all-MiniLM-L6-v2` | Sentence transformer model |
 | `CHUNK_SIZE` | `750` | Text chunk size in characters |
 | `CHUNK_OVERLAP` | `150` | Overlap between adjacent chunks |
