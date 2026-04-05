@@ -1,4 +1,4 @@
-# <img src="final.svg" width="18" height="18" style="vertical-align: middle; margin-right: 6px;"> RAG Chatbot
+# <img src="final.svg" width="25" height="25" style="vertical-align: middle; margin-right: 6px;"> RAG Chatbot
 
 Production-ready Retrieval-Augmented Generation chatbot built with FastAPI, React, ChromaDB, and OpenRouter.
 
