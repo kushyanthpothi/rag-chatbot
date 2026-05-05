@@ -4,6 +4,8 @@ from __future__ import annotations
 import os
 from typing import Optional
 
+persist_directory = "/data/chroma"
+
 # Suppress ChromaDB telemetry warnings
 os.environ["ANONYMIZED_TELEMETRY"] = "False"
 
